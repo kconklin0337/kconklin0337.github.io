@@ -1,3 +1,41 @@
+/* Navigation */
+#slideNav {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-top: -80px;
+    z-index: 11;
+}
+#slideNav ul {
+    list-style: none;
+    color: #000000;
+    font-size: 13px;
+    text-align: center;
+}
+#slideNav li {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(255,255,255,0.70);
+    margin-bottom: 1px;
+}
+.no-rgba  #slideNav li {background-color: #ffffff}
+#slideNav a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: #000000;
+}
+#slideNav a.disabled {
+    cursor: default;
+}
+
+/*
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -166,3 +204,5 @@ h3 {
 .col-12 {
     width: 100%;
 }
+
+*/
