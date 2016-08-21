@@ -1,0 +1,168 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-image: url("http://cdn.mysitemyway.com/etc-mysitemyway/webtreats/assets/posts/743/full/rice-paper-sky-textures-1.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 53px;
+  font-weight: 100 !important;
+}
+
+h2 {
+  color: rgba(183, 181, 181, 0.33);
+  font-size: 30px;
+  padding-left: 35%;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 22px;
+  margin-top: -7%;
+}
+
+.container {
+  height: 575px;
+  overflow: hidden;
+  width: 101.3% !important;
+  margin:-1.36% -20px -20px -15px !important;
+}
+
+.container img {
+  max-width: 200%;
+  width: 100.5%;
+  height: 101%;
+  margin-top: -7%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    opacity: 0.7;
+    transition: 1s;
+}
+
+.navbar-brand {
+    padding: 25px;
+    margin-left: 3% !important;
+}
+
+.navbar-right {
+    margin-right: 5.5% !important;
+}
+
+.navbar-fixed {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    transition: 1s;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+   padding-left:22%;
+   padding-top:75%;
+   position: relative;
+}
+
+.banner {
+  padding-left: 11%;
+  margin-top: 2%;
+}
+
+.grid-right {
+    margin: 0 auto;
+    margin-right: 8%;
+    max-width: 1200px;
+    width: 60%;
+    float:right;
+    padding-left: 10%;
+    padding-right: 0%;
+    overflow-x: hidden;
+}
+
+.grid-left {
+  margin: 37px auto 37px 5%;
+  max-width: 550px;
+  width: 30%;
+  height: 80%;
+  float: left;
+  position: relative;
+  word-wrap: normal;
+  border-style: ridge;
+  border-width: 4px;
+  top: -660px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}

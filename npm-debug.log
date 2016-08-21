@@ -1,0 +1,113 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'dist/skrollr.menu.min.js' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of C:\Users\Cliff\Documents\Portolio\Paralax Mock\package.json
+5 warn package.json paralock_mock@1.0.0 No description
+6 warn package.json paralock_mock@1.0.0 No repository field.
+7 warn package.json paralock_mock@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from C:\Users\Cliff\Documents\Portolio\Paralax Mock\node_modules\bootstrap\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\Cliff\Documents\Portolio\Paralax Mock\node_modules\express\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\Cliff\Documents\Portolio\Paralax Mock\node_modules\g\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\Cliff\Documents\Portolio\Paralax Mock\node_modules\morgan\package.json
+12 info package.json g@2.0.1 license should be a valid SPDX license expression
+13 verbose readDependencies loading dependencies from C:\Users\Cliff\Documents\Portolio\Paralax Mock\package.json
+14 silly cache add args [ 'dist/skrollr.menu.min.js', null ]
+15 verbose cache add spec dist/skrollr.menu.min.js
+16 silly cache add parsed spec Result {
+16 silly cache add   raw: 'dist/skrollr.menu.min.js',
+16 silly cache add   scope: null,
+16 silly cache add   name: null,
+16 silly cache add   rawSpec: 'dist/skrollr.menu.min.js',
+16 silly cache add   spec: 'github:dist/skrollr.menu.min.js',
+16 silly cache add   type: 'hosted',
+16 silly cache add   hosted:
+16 silly cache add    { type: 'github',
+16 silly cache add      ssh: 'git@github.com:dist/skrollr.menu.min.js.git',
+16 silly cache add      sshUrl: 'git+ssh://git@github.com/dist/skrollr.menu.min.js.git',
+16 silly cache add      httpsUrl: 'git+https://github.com/dist/skrollr.menu.min.js.git',
+16 silly cache add      gitUrl: 'git://github.com/dist/skrollr.menu.min.js.git',
+16 silly cache add      shortcut: 'github:dist/skrollr.menu.min.js',
+16 silly cache add      directUrl: 'https://raw.githubusercontent.com/dist/skrollr.menu.min.js/master/package.json' } }
+17 verbose addRemoteGit caching dist/skrollr.menu.min.js
+18 verbose addRemoteGit dist/skrollr.menu.min.js is a repository hosted by github
+19 silly tryGitProto attempting to clone git://github.com/dist/skrollr.menu.min.js.git
+20 silly tryClone cloning dist/skrollr.menu.min.js via git://github.com/dist/skrollr.menu.min.js.git
+21 verbose tryClone git-github-com-dist-skrollr-menu-min-js-git-879d25e0 not in flight; caching
+22 verbose correctMkdir C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+23 verbose makeDirectory C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes creation not in flight; initializing
+24 verbose makeCacheDir UID & GID are irrelevant on win32
+25 info git [ 'clone',
+25 info git   '--template=C:\\Users\\Cliff\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+25 info git   '--mirror',
+25 info git   'git://github.com/dist/skrollr.menu.min.js.git',
+25 info git   'C:\\Users\\Cliff\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-dist-skrollr-menu-min-js-git-879d25e0' ]
+26 verbose git clone --template=C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/dist/skrollr.menu.min.js.git C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dist-skrollr-menu-min-js-git-879d25e0: Cloning into bare repository 'C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dist-skrollr-menu-min-js-git-879d25e0'...
+26 verbose git clone --template=C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/dist/skrollr.menu.min.js.git C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dist-skrollr-menu-min-js-git-879d25e0: fatal: remote error:
+26 verbose git clone --template=C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/dist/skrollr.menu.min.js.git C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dist-skrollr-menu-min-js-git-879d25e0:   Repository not found.
+27 silly tryHTTPS attempting to clone git+https://github.com/dist/skrollr.menu.min.js.git
+28 silly tryClone cloning dist/skrollr.menu.min.js via git+https://github.com/dist/skrollr.menu.min.js.git
+29 verbose tryClone https-github-com-dist-skrollr-menu-min-js-git-2d1776bc not in flight; caching
+30 verbose correctMkdir C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+31 info git [ 'clone',
+31 info git   '--template=C:\\Users\\Cliff\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+31 info git   '--mirror',
+31 info git   'https://github.com/dist/skrollr.menu.min.js.git',
+31 info git   'C:\\Users\\Cliff\\AppData\\Roaming\\npm-cache\\_git-remotes\\https-github-com-dist-skrollr-menu-min-js-git-2d1776bc' ]
+32 verbose git clone --template=C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/dist/skrollr.menu.min.js.git C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\https-github-com-dist-skrollr-menu-min-js-git-2d1776bc: Cloning into bare repository 'C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\https-github-com-dist-skrollr-menu-min-js-git-2d1776bc'...
+32 verbose git clone --template=C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/dist/skrollr.menu.min.js.git C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\https-github-com-dist-skrollr-menu-min-js-git-2d1776bc: git: 'credential-kconklin0337' is not a git command. See 'git --help'.
+32 verbose git clone --template=C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/dist/skrollr.menu.min.js.git C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\https-github-com-dist-skrollr-menu-min-js-git-2d1776bc: git: 'credential-kconklin0337' is not a git command. See 'git --help'.
+32 verbose git clone --template=C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/dist/skrollr.menu.min.js.git C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\https-github-com-dist-skrollr-menu-min-js-git-2d1776bc: git: 'credential-kconklin0337' is not a git command. See 'git --help'.
+32 verbose git clone --template=C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/dist/skrollr.menu.min.js.git C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\https-github-com-dist-skrollr-menu-min-js-git-2d1776bc: git: 'credential-kconklin0337' is not a git command. See 'git --help'.
+32 verbose git clone --template=C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/dist/skrollr.menu.min.js.git C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\https-github-com-dist-skrollr-menu-min-js-git-2d1776bc: remote: Invalid username or password.
+32 verbose git clone --template=C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/dist/skrollr.menu.min.js.git C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\https-github-com-dist-skrollr-menu-min-js-git-2d1776bc: fatal: Authentication failed for 'https://github.com/dist/skrollr.menu.min.js.git/'
+33 silly trySSH attempting to clone git@github.com:dist/skrollr.menu.min.js.git
+34 silly tryClone cloning dist/skrollr.menu.min.js via git@github.com:dist/skrollr.menu.min.js.git
+35 verbose tryClone git-github-com-dist-skrollr-menu-min-js-git-a09e29cd not in flight; caching
+36 verbose correctMkdir C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+37 info git [ 'clone',
+37 info git   '--template=C:\\Users\\Cliff\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+37 info git   '--mirror',
+37 info git   'git@github.com:dist/skrollr.menu.min.js.git',
+37 info git   'C:\\Users\\Cliff\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-dist-skrollr-menu-min-js-git-a09e29cd' ]
+38 error git clone --template=C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:dist/skrollr.menu.min.js.git C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dist-skrollr-menu-min-js-git-a09e29cd: Cloning into bare repository 'C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dist-skrollr-menu-min-js-git-a09e29cd'...
+38 error git clone --template=C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:dist/skrollr.menu.min.js.git C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dist-skrollr-menu-min-js-git-a09e29cd: Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+38 error git clone --template=C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:dist/skrollr.menu.min.js.git C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dist-skrollr-menu-min-js-git-a09e29cd: Permission denied (publickey).
+38 error git clone --template=C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:dist/skrollr.menu.min.js.git C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dist-skrollr-menu-min-js-git-a09e29cd: fatal: Could not read from remote repository.
+38 error git clone --template=C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:dist/skrollr.menu.min.js.git C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dist-skrollr-menu-min-js-git-a09e29cd:
+38 error git clone --template=C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:dist/skrollr.menu.min.js.git C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dist-skrollr-menu-min-js-git-a09e29cd: Please make sure you have the correct access rights
+38 error git clone --template=C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:dist/skrollr.menu.min.js.git C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dist-skrollr-menu-min-js-git-a09e29cd: and the repository exists.
+39 verbose stack Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:dist/skrollr.menu.min.js.git C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dist-skrollr-menu-min-js-git-a09e29cd
+39 verbose stack Cloning into bare repository 'C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dist-skrollr-menu-min-js-git-a09e29cd'...
+39 verbose stack Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+39 verbose stack Permission denied (publickey).
+39 verbose stack fatal: Could not read from remote repository.
+39 verbose stack
+39 verbose stack Please make sure you have the correct access rights
+39 verbose stack and the repository exists.
+39 verbose stack
+39 verbose stack     at ChildProcess.exithandler (child_process.js:213:12)
+39 verbose stack     at emitTwo (events.js:87:13)
+39 verbose stack     at ChildProcess.emit (events.js:172:7)
+39 verbose stack     at maybeClose (internal/child_process.js:829:16)
+39 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+40 verbose cwd C:\Users\Cliff\Documents\Portolio\Paralax Mock
+41 error Windows_NT 10.0.10586
+42 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "dist/skrollr.menu.min.js"
+43 error node v4.5.0
+44 error npm  v2.15.9
+45 error code 128
+46 error Command failed: git -c core.longpaths=true clone --template=C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:dist/skrollr.menu.min.js.git C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dist-skrollr-menu-min-js-git-a09e29cd
+46 error Cloning into bare repository 'C:\Users\Cliff\AppData\Roaming\npm-cache\_git-remotes\git-github-com-dist-skrollr-menu-min-js-git-a09e29cd'...
+46 error Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+46 error Permission denied (publickey).
+46 error fatal: Could not read from remote repository.
+46 error
+46 error Please make sure you have the correct access rights
+46 error and the repository exists.
+47 error If you need help, you may report this error at:
+47 error     <https://github.com/npm/npm/issues>
+48 verbose exit [ 1, true ]
