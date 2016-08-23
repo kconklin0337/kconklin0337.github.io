@@ -111,7 +111,8 @@ main {
 
 /* Slide 3 */
 #slide-3 .bcg {
-  background-image:url('../img/bcg_slide-3.jpg');
+  background-image:url('../img/giphy.gif');
+  background-size: 110% 100%;
 }
 
 #slide-3 .bcg2 {
@@ -162,7 +163,7 @@ main {
   z-index: 2;
 }
 .container {
-   width:100%;  
+   width:100%;
 }
 
 .container img {
