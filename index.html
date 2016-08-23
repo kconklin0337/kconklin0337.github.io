@@ -6,11 +6,22 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
+<!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC:300,400" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+
+<!-- javascript and jquery -->
   <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.0.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+
+<!--- JSON call -->
+  <link rel="manifest" href="/manifest.json">
+
 </head>
   <body class="loading">
    	<main>
@@ -68,6 +79,93 @@
 			    			<div class="plaxEl" data-bottom-top="opacity: 0" data-top="opacity: 0" data--50p-top="opacity: 1; position: fixed; top: 206px; width: 100%; left: 0;" data--25p-bottom="opacity: 1;" data--50p-bottom="opacity: 0;" data-anchor-target="#slide-3">
                     <h2 style="margin-top:-5%"> Weather API </h2>
                       <p>This was a fun project working with Google's API.</p>
+                      <div class = "container">
+                        <div id="weather-info">
+                          <img scr="google.com"></img>
+                        </div>
+                        <div class="row"> <!--weather grid-->
+                          <div class="col-md-4 col-md-offset-4 col-xs-6">
+                            <input type="text" class='form-control' id='city' name='city' placeholder="City">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-4 col-md-offset-4 col-xs-6">
+                            <!-- <input id="scriptBox" type="text" class="form-control" onkeypress="return getLocation()" placeholder="State" /> -->
+                            <input type="text" class="form-control" id="state" name="state" placeholder="State">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12">
+                          <div class="col-md-offset-5 col-xs-6">
+                            <button class="btn btn-default" id='get-weather'>Weather</button>
+                          </div>
+                        </div>
+                        <div class = "row">
+                        <div class = "col-md-12">
+                          <div class = "col-md-offset-10">
+                         <button class= "btn btn-danger btn-info collaposed" data-toggle="collapse" onclick="geoFindMe()" id="float"> Show my location </button>
+                       </div>
+                      </div>
+                      </div>
+                       <div class="row">
+                        <div class="col-md-9">
+                         <div id="test-output">
+                         </div>
+                        </div>
+                        <div class= "col-md-3">
+                         <div id="out">
+                         </div>
+                        </div>
+                      </div>
+                      </div>
+                      </div><br><br><br>
+                      <footer class= "footer">
+                        <div class= "container" id="bottomNav">
+                          <a href= "/" class= "navbar-brand">
+                            <a href= "/">Back to Top</a>
+                          </div>
+                        </footer>
+
+
+                            <!-- begin scripts -->
+
+                        <script id="info" type='text/x-handlebars-template'>
+
+                            <div class = "col-md-12">
+                            <h2>You live in: {{city}}, {{state}}</h2>
+                        </div>
+                      </div>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <h3>It is currently <strong>{{ temperature }}&#8457;</strong>
+                              <br>The current time is {{ currentTime }}
+                            </h3>
+                          </div>
+                        </div>
+                        <div class= "row">
+                          <div class="col-md-12">
+                            <h3>Tomorrow, {{ dailyTime }}:
+                              <br> High of {{ dailyTemp }}&#8457;
+                               and low of {{ dailyLowTemp }}&#8457;
+                             </h3>
+                          </div>
+                        </div>
+                          <div class="row">
+                            <div class="col-md-12">
+                            <p><em>{{ hourly }}</p></em>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <p><em><h4>Ermuhguh it's a {{ summary }}</p></em></h4>
+                            <img src="../css/images/{{ icon }}.gif" alt="{{ icon }}" class="img-responsive">
+                          </div>
+                        </div>
+                      </div>
+                      </script>
+                         <script>
+                        </script>
+
 				    		</div>
 			    		</div>
 			    	</div>
@@ -121,6 +219,7 @@
         <script src="js/skrollr.js"></script>
       	<script type="text/javascript" src="js/skrollr.ie.min.js"></script>
         <script src="js/_main.js"></script>
+        <script src="app.js"></script>
 
     </body>
 </html>
