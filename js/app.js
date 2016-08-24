@@ -10,17 +10,19 @@ function geoFindMe() {
     var longitude = position.coords.longitude;
     var accuracy = position.coords.accuracy;
 
-    output.innerHTML = '<p> Your current coordinate is '+ latitude + '°' + longitude + '°</p>';
+    output.innerHTML = '<p style="margin-top:-30%;margin-left: -13%;color: white;"> Your current coordinate is: '+ '<br>' + latitude + '°' + longitude + '°</p>';
 
     var img = new Image();
     img.src = "https://maps.googleapis.com/maps/api/staticmap?center=" + latitude + "," + longitude + "&zoom=13&size=300x300&sensor=false";
-
+    img.style.width ="75%";
+    img.style.marginLeft ="9%";
+    img.style.opacity = ".85";
     output.appendChild(img);
   };
   function error() {
     output.innerHTML = "Unable to retrieve your location";
   };
-  output.innerHTML = "<p>Big Brother is watching…</p>";
+  output.innerHTML = "<p style='margin-top:-30%; margin-left: -13%;color: white;'>Big Brother is watching…</p>";
   navigator.geolocation.getCurrentPosition(success, error);
 }
 

@@ -65,10 +65,16 @@ body, html {
 	padding-top: 106px;
 }
 
+h1 {}
+
 h2 {
 	margin-top: 0;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
+}
+
+h3 {
+  margin-bottom: 0px;
 }
 
 .loading {
@@ -148,7 +154,9 @@ main {
   text-align: center;
 }
 
-#slide-4 .bcg {background-image:url('../img/bcg_slide-4.jpg')}
+#slide-4 .bcg {
+  background-image:url('../img/bcg_slide-4.jpg');
+}
 
 /* Slide 5 */
 #slide-5 {
