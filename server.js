@@ -14,7 +14,7 @@ server.get('/', function(req, res){
   res.sendFile('/index.html', {root:__dirname})
 });
 
-server.listen(server.get('port'), listenCallback);
+/*server.listen(server.get('port'), listenCallback);*/
 
 server.listen(8080, function(){
   console.log("May the Force Be With You...");
