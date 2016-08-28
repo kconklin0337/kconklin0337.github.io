@@ -6,9 +6,9 @@
   margin-top:-55%;
 }
 
-#float:hover{
+/*#float:hover{
   cursor: url("../img/picacursor.png"), auto;
-}
+}*/
 
 #bottomNav {
   float: right;
@@ -19,9 +19,9 @@
     margin-right:4.5%;
 }
 
-#get-weather:hover {
+/*#get-weather:hover {
   cursor: url("../img/picacursor.png"), auto;
-}
+}*/
 
  .navbar-brand {
   margin-bottom:1%;
@@ -70,12 +70,11 @@
 }
 
 #test-output img {
-  width: 15%;
-  height: 30%;
-  margin-top: -25%;
-  border-radius: 70%;
+  width: 20%;
+  height: 45%;
+  margin-top: -23%;
   opacity: .7;
-  margin-right: 74%;
+  margin-right: 71.5%;
 }
 
 .footer {

@@ -52,6 +52,14 @@ textarea {
     padding: 0.2em 0;
 }
 
+p {
+    font-family: 'Amatic SC';
+    font-size: 23px;
+    font-weight: 600;
+		width: 400px;
+		margin: 0 auto;
+		color: #b2b2b2;
+}
 /******************************************************************************/
 /******************   Parallax Scroll   ***************************************/
 /******************************************************************************/
@@ -155,7 +163,8 @@ main {
 }
 
 #slide-4 .bcg {
-  background-image:url('../img/bcg_slide-4.jpg');
+  background-image:url('http://labs.paracosm.io/hubfs/budgiespaceship.png?t=1472151522170');
+  background-size:100% 120%;
 }
 
 /* Slide 5 */
@@ -345,6 +354,45 @@ main {
 
 .clearfix {
     *zoom: 1;
+}
+
+.academy-badge {
+  max-width:100%;
+  position:relative;
+}
+
+.academy-badge img {
+  width:15%;
+  position:absolute;
+  margin-top:32%;
+  margin-left:-45%;
+  opacity:.7;
+}
+
+.paracosm_blog_1 {
+  max-width:100%;
+  position:relative;
+}
+
+.paracosm_blog_1 img{
+  width:40%;
+  position:absolute;
+  margin-top:4%;
+  margin-left:-45%;
+  opacity:.9;
+}
+
+.paracosm_blog_2 {
+  max-width:100%;
+  position:relative;
+}
+
+.paracosm_blog_2 img {
+  width:40%;
+  position:absolute;
+  margin-top:4%;
+  margin-right:-45%;
+  opacity:.9;
 }
 
 /******************************************************************************/

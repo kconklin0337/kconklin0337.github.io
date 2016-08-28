@@ -38,7 +38,7 @@ var locationData = {
   summary: null,
 };
 
-$(document).ready(function(){
+  $(document).ready(function(){
   var base = 'https://maps.googleapis.com/maps/api/geocode/json?address=';
   var local = 'https://api.forecast.io/forecast/236026fb27ec1cc754ee63351e9e9e41/'
 
@@ -109,4 +109,6 @@ $(document).ready(function(){
     console.error(err);
     console.log(processData)
   }
+
+
 });
