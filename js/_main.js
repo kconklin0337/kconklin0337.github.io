@@ -1,3 +1,10 @@
+
+$('.title').on('click', function() {
+	$parent_box = $(this).closest('.box');
+	$parent_box.siblings().find('.descrip').slideUp();
+	$parent_box.find('.descrip').slideToggle(300, 'slide');
+});
+
 /*! viewportSize | Author: Tyson Matanich, 2013 | License: MIT */
 (function(n) {
 	n.viewportSize={},
@@ -215,3 +222,12 @@
 	}
 
 } )( jQuery );
+
+$(window).scroll(function(){ // Hides Weather Form after page is passed
+  if($(this).scrollTop() > 4500){
+    $(".form-control").css({'display': 'none'});
+	if($(this).scrollTop() <= 4000){
+    $(".form-control").css({'display': 'block'});
+  }
+}
+});

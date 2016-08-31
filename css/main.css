@@ -58,8 +58,33 @@ p {
     font-weight: 600;
 		width: 400px;
 		margin: 0 auto;
-		color: #b2b2b2;
+		color: white;
 }
+
+.container .box {
+  width: 25%;
+  margin: 20px;
+}
+
+.container .box .title {
+  padding: 12px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  width:100%;
+}
+
+.container .box .descrip {
+  padding: 12px;
+  color: white;
+  display: none;
+  text-align: left;
+  width:100%;
+  overflow: unset;
+  display: -moz-inline-grid;
+}
+
+
 /******************************************************************************/
 /******************   Parallax Scroll   ***************************************/
 /******************************************************************************/
@@ -79,6 +104,7 @@ h2 {
 	margin-top: 0;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
+  color:white;
 }
 
 h3 {
@@ -164,7 +190,7 @@ main {
 
 #slide-4 .bcg {
   background-image:url('http://labs.paracosm.io/hubfs/budgiespaceship.png?t=1472151522170');
-  background-size:100% 120%;
+  background-size:120% 120%;
 }
 
 /* Slide 5 */
@@ -225,11 +251,12 @@ main {
 	text-align: center;
 	position: relative;
 	z-index: 10;
+  width: 100%;
 }
 
 .hsContent h2,
 .copy h2 {
-    color: #d8d8d8;
+    color: white;
     font-size: 55px;
     line-height: 55px;
     margin-bottom: 25px;
@@ -241,7 +268,8 @@ main {
     font-weight: 600;
 		width: 400px;
 		margin: 0 auto;
-		color: #b2b2b2;
+		color: white;
+    /*#b2b2b28*/;
 }
 
 .hsContent a {
@@ -364,7 +392,7 @@ main {
 .academy-badge img {
   width:15%;
   position:absolute;
-  margin-top:32%;
+  margin-top:31%;
   margin-left:-45%;
   opacity:.7;
 }
@@ -379,7 +407,7 @@ main {
   position:absolute;
   margin-top:4%;
   margin-left:-45%;
-  opacity:.9;
+  opacity:.79;
 }
 
 .paracosm_blog_2 {
@@ -392,7 +420,32 @@ main {
   position:absolute;
   margin-top:4%;
   margin-right:-45%;
-  opacity:.9;
+  opacity:.79;
+}
+
+.motoWeather {
+  max-width:100%;
+  position:relative;
+}
+
+.motoWeather img{
+  width:41.5%;
+  position:absolute;
+  margin-top:15%;
+  margin-left:-47%;
+  opacity:.79;
+}
+
+.DarkRoom {
+  max-width:100%;
+  position:relative;
+}
+
+.DarkRoom img {
+  width:40%;
+  position:absolute;
+  margin-top:15%;
+  opacity:.79;
 }
 
 /******************************************************************************/
