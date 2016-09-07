@@ -467,6 +467,8 @@ main {
 
 .social_icons {
     width:25%;
+    margin-right:0% !important;
+    border-radius: 0% !important;
 }
 
 /******************************************************************************/
