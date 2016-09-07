@@ -458,9 +458,11 @@ main {
 }
 
 .DarkRoom p {
-  margin-left: 55%;
-  width: 30%;
-  margin-top: 2%;
+  margin-left: 50%;
+  width: 39%;
+  margin-top: 6%;
+  margin-bottom: -13%;
+  text-align: right;
 }
 
 /******************************************************************************/
