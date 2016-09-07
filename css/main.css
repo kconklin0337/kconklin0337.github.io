@@ -394,7 +394,7 @@ main {
   width: 15%;
   position: absolute;
   margin-top: 0%;
-  margin-left: -6%;
+  margin-left: -9.9%;
   opacity: .7;
 }
 
@@ -437,6 +437,13 @@ main {
   opacity:.79;
 }
 
+.motoWeather p {
+  margin-left: 8%;
+  margin-bottom: -14%;
+  width: 33%;
+  word-break: keep-all;
+}
+
 .DarkRoom {
   max-width:100%;
   position:relative;
@@ -447,6 +454,12 @@ main {
   position:absolute;
   margin-top:15%;
   opacity:.79;
+}
+
+.DarkRoom p {
+  margin-left: 55%;
+  width: 30%;
+  margin-top: 2%;
 }
 
 /******************************************************************************/
