@@ -438,10 +438,11 @@ main {
 }
 
 .motoWeather p {
-  margin-left: 8%;
-  margin-bottom: -14%;
-  width: 33%;
-  word-break: keep-all;
+  margin-left: 6%;
+  margin-bottom: -13%;
+  width: 38%;
+  margin-top: 5.5%;
+  text-align: right;
 }
 
 .DarkRoom {
