@@ -4,6 +4,11 @@
 
 #float {
   margin-top:-55%;
+  width: 60%;
+  background-color: #800;
+  font-size: 190%;
+  border-width: 3px;
+  color: white;
 }
 
 /*#float:hover{
@@ -16,7 +21,12 @@
 
 
 #get-weather {
-    margin-right:4.5%;
+  margin-right: 2%;
+  width: 60%;
+  background-color: #800;
+  font-size: 190%;
+  border-width: 3px;
+  color: white;
 }
 
 /*#get-weather:hover {
@@ -52,7 +62,7 @@
   margin-left: -15%;
   font-weight: bold;
   align-content: center;
-  font-family: Comic Sans MS;
+  font-family: 'Roboto', sans-serif;
 }
 
 .dropdown-toggle {

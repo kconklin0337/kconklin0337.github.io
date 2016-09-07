@@ -53,10 +53,9 @@ textarea {
 }
 
 p {
-    font-family: 'Amatic SC';
+    font-family: 'Roboto', sans-serif;
     font-size: 23px;
     font-weight: 600;
-		width: 400px;
 		margin: 0 auto;
 		color: white;
 }
@@ -64,6 +63,8 @@ p {
 .container .box {
   width: 25%;
   margin: 20px;
+  margin-left: 37%;
+  margin-top: 3%;
 }
 
 .container .box .title {
@@ -263,7 +264,7 @@ main {
 }
 
 .hsContent p {
-    font-family: 'Amatic SC';
+    font-family: 'Roboto', sans-serif;
     font-size: 23px;
     font-weight: 600;
 		width: 400px;
@@ -298,7 +299,7 @@ main {
   color: #000000;
   font-size: 32px;
   text-align: center;
-  font-family: 'Amatic SC';
+  font-family: 'Roboto', sans-serif;
 }
 
 #slideNav li {
@@ -390,11 +391,11 @@ main {
 }
 
 .academy-badge img {
-  width:15%;
-  position:absolute;
-  margin-top:31%;
-  margin-left:-45%;
-  opacity:.7;
+  width: 15%;
+  position: absolute;
+  margin-top: 0%;
+  margin-left: -7%;
+  opacity: .7;
 }
 
 .paracosm_blog_1 {
@@ -405,7 +406,7 @@ main {
 .paracosm_blog_1 img{
   width:40%;
   position:absolute;
-  margin-top:4%;
+  margin-top:6%;
   margin-left:-45%;
   opacity:.79;
 }
@@ -418,7 +419,7 @@ main {
 .paracosm_blog_2 img {
   width:40%;
   position:absolute;
-  margin-top:4%;
+  margin-top:6%;
   margin-right:-45%;
   opacity:.79;
 }
