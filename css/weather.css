@@ -6,9 +6,10 @@
   margin-top:-55%;
   width: 60%;
   background-color: #800;
-  font-size: 190%;
+  font-size: 150%;
   border-width: 3px;
   color: white;
+  border-color:white;
 }
 
 /*#float:hover{
@@ -27,6 +28,7 @@
   font-size: 190%;
   border-width: 3px;
   color: white;
+  border-color:white;
 }
 
 /*#get-weather:hover {
