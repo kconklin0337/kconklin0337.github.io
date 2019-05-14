@@ -1,3 +1,7 @@
 body {
   background-image: url(https://imgnooz.com/sites/default/files/wallpaper/abstract/55449/fabric-texture-wallpapers-55449-3246274.png);
 }
+
+.container {
+  padding: 5%;
+}
