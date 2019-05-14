@@ -25,7 +25,8 @@ body {
 }
 
 .avatar {
-  border-radius: 50%
+  border-radius: 50%;
+  width:50%;
 }
 .tagline {
   font-family: "Lucida Console", Monaco, monospace;
