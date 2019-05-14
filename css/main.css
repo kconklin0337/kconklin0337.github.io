@@ -10,14 +10,11 @@ body {
   padding:5%;
 }
 .side-menu {
-  width: 35%;
-  float: right;
-  overflow: hidden;
   margin: 5% 3% 0% 0%;
-  background-color: #560b07b0;
   padding: 3%;
   color: #e6e691;
-  font-weight: 800;
+  background-color: #560b07b0;
+  overflow: hidden;
   border-radius: 115px;
 }
 
