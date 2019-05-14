@@ -3,11 +3,11 @@ body {
 }
 
 .container {
-  padding: 5%;
 }
 .top-page-content{
   color:white;
   font-size:27px;
+  padding:5%;
 }
 .side-menu {
   width: 35%;
