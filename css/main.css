@@ -10,17 +10,17 @@ body {
   padding:5%;
 }
 .side-menu {
-  margin: 5% 3% 0% 0%;
-  padding: 3%;
-  color: #e6e691;
-  background-color: #560b07b0;
-  overflow: hidden;
-  border-radius: 115px;
+    margin: 5% 0% 10% 43%;
+    padding: 5%;
+    color: #e6e691c7;
+    background-color: #560b079e;
+    overflow: hidden;
+    border-radius: 2%;
+    width: 70%;
+    text-align: center;
+    line-height: 35px;
 }
 
 .avatar {
-  margin: 0% 0% 0% 30%;
-  border-radius: 10%;
-  border-color: black;
-  border-width: 19px;
+  border-radius: 50%
 }
