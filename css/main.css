@@ -19,6 +19,9 @@ body {
     width: 70%;
     text-align: center;
     line-height: 35px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
 }
 
 .avatar {
