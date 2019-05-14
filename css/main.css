@@ -4,26 +4,47 @@ body {
 
 .container {
 }
+
 .top-page-content{
   color:white;
   font-size:27px;
   padding:5%;
 }
+
 .side-menu {
-    margin: 5% 0% 10% 43%;
-    padding: 5%;
-    color: #ececb2;
-    background-color: #560b079e;
-    overflow: hidden;
-    border-radius: 2%;
-    width: 70%;
-    text-align: center;
-    line-height: 35px;
+  margin: 5% 0% 10% 43%;
+  padding: 5%;
+  color: #ececb2;
+  background-color: #560b079e;
+  overflow: hidden;
+  border-radius: 2%;
+  width: 70%;
+  text-align: center;
+  line-height: 35px;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
 }
 
 .avatar {
   border-radius: 50%
 }
+
 .tagline {
   font-family: "Lucida Console", Monaco, monospace;
+}
+
+.social-container {
+
+}
+
+.linkedin-social-icon {
+  width: 42%;
+  float: left;
+  margin-top: 1%;
+}
+
+.github-social-icon {
+  width: 50%;
+ float: right;
 }
