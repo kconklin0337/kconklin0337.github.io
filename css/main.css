@@ -3,6 +3,7 @@ body {
 }
 
 .container {
+  margin-top: 3%;
 }
 .col-md-6 {
   margin-left: -2%;
@@ -78,10 +79,11 @@ body {
   width: 1200px;
   border-width: 4px;
   border-style: solid;
-  border-color: black;
+  border-color: #0000006b;
   height: 437px;
   text-align: center;
   padding: 2%;
+  margin: 5% auto 5% auto;
 }
 
 .middle-col {
@@ -90,4 +92,7 @@ body {
   border-right-width: 2px;
   height: 431px;
   margin-top: -2.5%;
+}
+.col-sm-4 .middle-col img {
+  margin-top:30%;
 }
