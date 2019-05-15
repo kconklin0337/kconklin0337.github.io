@@ -24,7 +24,7 @@ body {
 
 .top-page-content{
   color: white;
-  font-size: 27px;
+  font-size: 20px;
   padding-top: 5%;
   width: 123%;
   word-break: normal;
@@ -70,4 +70,15 @@ body {
 .github-social-icon {
   width: 50%;
  float: right;
+}
+
+.middle-container {
+  background-color: black;
+  opacity: .8;
+  transform: skew(.312rad);
+  width: 150%;
+  border-width: 4px;
+  border-radius: 4px;
+  border-style: double;
+  border-color: white;
 }
