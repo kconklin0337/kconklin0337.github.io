@@ -4,11 +4,22 @@ body {
 
 .container {
 }
+
+.top-page-header {
+ background-color: black;
+ width:120%;
+ border-radius: 5px;
+ border-width: 5px;
+ border-color: white;
+ color: white;
+}
+
 .top-page-content{
   color:white;
   font-size:27px;
-  padding:5%;
+  padding:15%;
 }
+
 .side-menu {
     margin: 5% 0% 10% 43%;
     padding: 5%;
@@ -28,6 +39,7 @@ body {
   border-radius: 50%;
   width:50%;
 }
+
 .tagline {
   font-family: "Lucida Console", Monaco, monospace;
 }
