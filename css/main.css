@@ -73,12 +73,13 @@ body {
 }
 
 .middle-container {
-  background-color: black;
-  opacity: .8;
-  transform: skew(.312rad);
-  width: 150%;
+  border-radius: 5px;
+  background-color: #3d535ac2;
+  width: 87%;
   border-width: 4px;
-  border-radius: 4px;
-  border-style: double;
-  border-color: white;
+  border-style: solid;
+  border-color: black;
+  height: 437px;
+  text-align: center;
+  padding: 2%;
 }
