@@ -75,11 +75,19 @@ body {
 .middle-container {
   border-radius: 5px;
   background-color: #3d535ac2;
-  width: 87%;
+  width: 1200px;
   border-width: 4px;
   border-style: solid;
   border-color: black;
   height: 437px;
   text-align: center;
   padding: 2%;
+}
+
+.middle-col {
+  border-right-color: #0000003d;
+  border-right-style: solid;
+  border-right-width: 2px;
+  height: 431px;
+  margin-top: -2.5%;
 }
