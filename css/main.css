@@ -73,7 +73,7 @@ body {
  float: right;
 }
 
-.middle-container {
+.middle-container-1 {
   border-radius: 5px;
   background-color: #3d535ac2;
   width: 1200px;
@@ -86,13 +86,62 @@ body {
   margin: 5% auto 5% auto;
 }
 
-.middle-col {
+.middle-container-2 {
+  border-radius: 5px;
+  background-color: #3d535ac2;
+  width: 1200px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #0000006b;
+  height: 437px;
+  text-align: center;
+  padding: 2%;
+  margin: 5% auto 5% auto;
+}
+
+.middle-container-3 {
+  border-radius: 5px;
+  background-color: #3d535ac2;
+  width: 1200px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #0000006b;
+  height: 437px;
+  text-align: center;
+  padding: 2%;
+  margin: 5% auto 5% auto;
+}
+
+.middle-pannel-1 {
   border-right-color: #0000003d;
   border-right-style: solid;
   border-right-width: 2px;
   height: 431px;
   margin-top: -2.5%;
 }
+
+.middle-pannel-2 {
+  border-right-color: #0000003d;
+  border-right-style: solid;
+  border-right-width: 2px;
+  height: 431px;
+  margin-top: -2.5%;
+}
+
+.middle-pannel-3 {
+  border-right-color: #0000003d;
+  border-right-style: solid;
+  border-right-width: 2px;
+  height: 431px;
+  margin-top: -2.5%;
+}
+
+.middle-pannel-1
+.middle-pannel-2
+.middle-pannel-3 {
+
+}
+
 .col-sm-4 .middle-col img {
   margin-top:30%;
 }
