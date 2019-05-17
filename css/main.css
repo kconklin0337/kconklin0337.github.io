@@ -24,11 +24,10 @@ body {
 }
 
 .top-page-content{
-  color: white;
+  color: wheat;
   font-size: 20px;
   padding-top: 5%;
   width: 123%;
-  word-break: normal;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   line-height: 27px;
   word-spacing: 2px;
@@ -136,6 +135,8 @@ body {
 .middle-container-1 .middle-pannel-1 p {
   text-align: justify;
   padding: 0% 5% 0% 5%;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: wheat;
 }
 
 .middle-container-2 .middle-pannel-2 img {
@@ -143,9 +144,23 @@ body {
   width: 85%;
 }
 
+.middle-container-2 .middle-pannel-2 p {
+  text-align: justify;
+  padding: 0% 5% 0% 5%;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: wheat;
+}
+
 .middle-container-3 .middle-pannel-3 img {
   margin-top: 6%;
   width: 85%;
+}
+
+.middle-container-3 .middle-pannel-3 p {
+  text-align: justify;
+  padding: 0% 5% 0% 5%;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: wheat;
 }
 
 .col-sm-4 .middle-col img {
