@@ -85,6 +85,7 @@ body {
   padding: 2%;
   margin: 5% 2% 5% 0%;
   float: left;
+  border-style: solid;
 }
 
 .middle-container-2 {
@@ -96,8 +97,9 @@ body {
   height: 437px;
   text-align: center;
   padding: 2%;
-  margin: 5% auto 5% 2%;
+  margin: 5% auto 5% 3%;
   float: left;
+  border-style: solid;
 }
 
 .middle-container-3 {
@@ -109,8 +111,9 @@ body {
   height: 437px;
   text-align: center;
   padding: 2%;
-  float: right;
   margin: 5% auto 5% auto;
+  float: right;
+  border-style: solid;
 }
 
 .middle-pannel-1 {
