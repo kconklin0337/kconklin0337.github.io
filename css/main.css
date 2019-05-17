@@ -10,7 +10,7 @@ body {
 }
 
 .top-page-header {
-  width: 115%;
+  width: 125%;
   margin-top: 5.3%;
   padding: 1%;
   text-align: center;
@@ -32,6 +32,7 @@ body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   line-height: 27px;
   word-spacing: 2px;
+  text-align: justify;
 }
 
 .side-menu {
@@ -111,8 +112,8 @@ body {
   float: right;
   margin: 5% auto 5% auto;
 }
-.middle-container-1 .middle-pannel-1 img {
-  width: 85%;
+
+.middle-pannel-1 {
 }
 
 .middle-pannel-2 {
@@ -122,7 +123,26 @@ body {
 }
 
 .middle-pannel-1 .middle-pannel-2 .middle-pannel-3 {
-    height: 400px;
+  height: 400px;
+}
+
+.middle-container-1 .middle-pannel-1 img {
+  margin-top: 6%;
+  width: 85%;
+}
+.middle-container-1 .middle-pannel-1 p {
+  text-align: justify;
+  padding: 0% 5% 0% 5%;
+}
+
+.middle-container-2 .middle-pannel-2 img {
+  margin-top: 6%;
+  width: 85%;
+}
+
+.middle-container-3 .middle-pannel-3 img {
+  margin-top: 6%;
+  width: 85%;
 }
 
 .col-sm-4 .middle-col img {
