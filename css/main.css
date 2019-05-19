@@ -185,10 +185,16 @@ body {
 
 .bottom-left-block {
   padding:2%;
+  text-align: right;
+  width: 45%;
+  margin-left: 45px;
 }
 
 .bottom-right-block {
   padding: 2%;
+  text-align: right;
+  width: 45%;
+  margin-left: 45px;
 }
 
 .bottom-left-block img {
@@ -196,6 +202,15 @@ body {
 }
 
 .bottom-right-block img{
+
+}
+
+.bottom-hr {
+  border-right-color: black;
+  border-right-style: solid;
+  border-right-width: 1px;
+  height: 299px;
+  margin-top: 4%;
 
 }
 
