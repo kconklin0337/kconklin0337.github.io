@@ -163,9 +163,20 @@ body {
   text-align: justify;
   padding: 0% 5% 0% 5%;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  color: #f7e7c9;;
+  color: #f7e7c9;
 }
 
 .col-sm-4 .middle-col img {
   margin-top:30%;
+}
+
+.bottom-container {
+  width:100%;
+  background-color: #560b079e;
+  color:#f7e7c9;
+  border-color: black;
+  border-width: 4px;
+  border-radius: 4px;
+  border-style: solid;
+  box-shadow: 10px 0px 20px 10px;
 }
