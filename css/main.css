@@ -171,12 +171,46 @@ body {
 }
 
 .bottom-container {
-  width:100%;
+  width: 100%;
   background-color: #560b079e;
-  color:#f7e7c9;
-  border-color: black;
+  color: #f7e7c96b;
+  border-color: #0000006b;
   border-width: 4px;
   border-radius: 4px;
   border-style: solid;
   box-shadow: 10px 0px 20px 10px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.bottom-left-block {
+  padding:2%;
+  margin-right: 9%;
+}
+
+.bottom-right-block {
+  padding: 2%;
+  margin-left: 16%;
+}
+
+.bottom-left-block img {
+
+}
+
+.bottom-right-block img{
+
+}
+
+.footer-container {
+    width: 90%;
+    background-color: black;
+    color: white;
+}
+
+.footer-img {
+
+}
+
+.contact-section {
+
 }
