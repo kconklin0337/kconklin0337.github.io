@@ -226,15 +226,41 @@ body {
 }
 
 .footer-container {
-    width: 90%;
+    width: 88%;
     background-color: black;
     color: white;
 }
 
-.footer-img {
-
+.footer-image {
+  margin: 5% -20% 5% 28px;
+  padding: 5%;
 }
 
+ .footer-image h3 {
+   color: #ffffff;
+   background-color: #560b079e;
+   padding: 5% 1% 5% 1%;
+   width: 65%;
+   border-color: #101010;
+   border-style: solid;
+   text-align: center;
+   font-size: 22px;
+   font-family: "Lucida Console", Monaco, monospace;
+ }
 .contact-section {
+  padding: 5%;
+  margin: 5% -20% 5% 10%;
+}
 
+.contact-section h3 {
+  color: #ffffff;
+  background-color: #560b079e;
+  padding: 5% 1% 5% 1%;
+  width: 65%;
+  border-color: #101010;
+  border-style: solid;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Lucida Console", Monaco, monospace;
+  margin-left: 50%;
 }
