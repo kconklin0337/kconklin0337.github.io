@@ -193,7 +193,6 @@ body {
   padding: 3% 0% 3% 0%;
   text-align: CENTER;
   width: 43%;
-  margin-left: 82px;
 }
 
 /*
@@ -238,11 +237,15 @@ body {
 }
 
 .footer-image {
-  margin: 0% -20% 5% 28px;
+  margin: 0% -20% 0% 28px;
   padding: 5%;
 }
 
- .footer-image h3 {
+.footer-image img {
+
+}
+
+.footer-image h3 {
    color: #ffffff;
    background-color: #560b079e;
    padding: 5% 1% 5% 1%;
@@ -256,7 +259,7 @@ body {
 
 .contact-section {
   padding: 5%;
-  margin: 0% -20% 5% 10%;
+  margin: 0% -20% 0% 10%;
 }
 
 .contact-section h3 {
