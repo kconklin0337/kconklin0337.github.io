@@ -5,14 +5,10 @@ body {
 .container {
   margin-top: 3%;
 }
-.col-md-6 {
-  margin-left: -2%;
-}
 
 .top-page-header {
   width: 125%;
-  margin-top: 5.3%;
-  padding: 1%;
+  margin-top: 10%;
   text-align: center;
   color:#f7e7c9;
   /*
@@ -28,7 +24,7 @@ body {
 
 .top-page-content{
   color: #f7e7c9;
-  font-size: 20px;
+  margin-left: 4px;
   padding-top: 5%;
   width: 123%;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -38,23 +34,23 @@ body {
 }
 
 .side-menu {
-    margin: 5% 0% 10% 43%;
-    padding: 5%;
-    color:#f7e7c9;
-    background-color: #560b079e;
-    overflow: hidden;
-    border-radius: 2%;
-    width: 70%;
-    text-align: center;
-    line-height: 35px;
-    border-width: 5px;
-    border-color: black;
-    border-style: solid;
+  margin: 10% 0% 10% 48%;
+  padding: 5%;
+  color: #f7e7c9;
+  background-color: #560b079e;
+  overflow: hidden;
+  border-radius: 2%;
+  width: 53%;
+  text-align: center;
+  line-height: 35px;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
 }
 
-.avatar {
+.side-menu img {
   border-radius: 50%;
-  width:50%;
+  width: 65%;
 }
 
 .tagline {
@@ -85,7 +81,7 @@ body {
   height: 437px;
   text-align: center;
   padding: 2%;
-  margin: 5% 2% 5% 0%;
+  margin: 5% 0% 5% 1%;
   float: left;
   border-style: solid;
 }
@@ -99,7 +95,7 @@ body {
   height: 437px;
   text-align: center;
   padding: 2%;
-  margin: 5% auto 5% 3%;
+  margin: 5% auto 5% 4.5%;
   float: left;
   border-style: solid;
 }
@@ -113,7 +109,7 @@ body {
   height: 437px;
   text-align: center;
   padding: 2%;
-  margin: 5% auto 5% auto;
+  margin: 5% 10px 5% auto;
   float: right;
   border-style: solid;
 }
@@ -178,21 +174,24 @@ body {
   border-width: 4px;
   border-radius: 4px;
   border-style: solid;
-  box-shadow: 10px 0px 20px 10px;
+  box-shadow: 0px 0px 50px 10px;
   text-align: center;
-  margin-bottom: 5%;
+  margin: 4% 0% 8% 0%;
 }
 
 .bottom-left-block {
   padding: 3% 0% 3% 0%;
-  text-align: CENTER;
+  /* text-align: CENTER; */
   width: 43%;
+  margin-left: 55px;
 }
 
 .bottom-right-block {
   padding: 3% 0% 3% 0%;
-  text-align: CENTER;
+  /* text-align: CENTER; */
   width: 43%;
+  margin-right: 40px;
+  float: right;
 }
 
 /*
@@ -227,7 +226,7 @@ body {
 }
 
 .footer-container {
-  width: 88%;
+  width: 87.5%;
   background-color: #0000008c;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #f7e7c9;
@@ -242,7 +241,7 @@ body {
 }
 
 .footer-image img {
-
+  margin: 5% 0% 0% 15%
 }
 
 .footer-image h3 {
@@ -259,7 +258,10 @@ body {
 
 .contact-section {
   padding: 5%;
-  margin: 0% -20% 0% 10%;
+  margin: 0% -20% 5% 10%;
+  text-align: justify;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #f7e7c9;
 }
 
 .contact-section h3 {
