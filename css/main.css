@@ -8,7 +8,7 @@ body {
 
 .top-page-header {
   width: 125%;
-  margin-top: 10%;
+  margin-top: 9%;
   text-align: center;
   color:#f7e7c9;
   /*
@@ -24,7 +24,7 @@ body {
 
 .top-page-content{
   color: #f7e7c9;
-  margin-left: 4px;
+  margin-left: 5px;
   padding-top: 5%;
   width: 123%;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -34,7 +34,7 @@ body {
 }
 
 .side-menu {
-  margin: 10% 0% 10% 48%;
+  margin: 9% 0% 10% 48%;
   padding: 5%;
   color: #f7e7c9;
   background-color: #560b079e;
@@ -169,14 +169,15 @@ body {
 .bottom-container {
   width: 100%;
   background-color: #560b079e;
-  color: #f7e7c96b;
-  border-color: #0000006b;
-  border-width: 4px;
-  border-radius: 4px;
-  border-style: solid;
-  box-shadow: 0px 0px 50px 10px;
+  color: #f7e7c947;
+  box-shadow: 0px 0px 20px 10px;
   text-align: center;
   margin: 4% 0% 8% 0%;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: groove;
+  border-bottom-style: groove;
+  border-color: #0000007a;
 }
 
 .bottom-left-block {
