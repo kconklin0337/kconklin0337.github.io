@@ -226,9 +226,12 @@ body {
 }
 
 .footer-container {
-    width: 88%;
-    background-color: black;
-    color: white;
+  width: 88%;
+  background-color: #0000008c;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #f7e7c9;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 .footer-image {
@@ -263,4 +266,8 @@ body {
   font-size: 22px;
   font-family: "Lucida Console", Monaco, monospace;
   margin-left: 50%;
+}
+
+.contact-section ol, ul {
+  float: right;
 }
