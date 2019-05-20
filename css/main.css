@@ -48,7 +48,7 @@ body {
   border-style: solid;
 }
 
-div.side-menu img:nth-child(1) {
+div.side-menu > img:first-child {
   border-radius: 50%;
   width: 65%;
 }
