@@ -54,13 +54,13 @@ div.side-menu > img:first-child {
   width: 65%;
 }
 
-div.side-menu img:nth-child(2){
+div.social-container img:nth-child(2){
 /*linkedin social icon*/
   width: 35%;
   margin-top: 1%;
   margin-right: 5%;
 }
-div.side-menu img:nth-child(3){
+div.social-container img:nth-child(3){
 /*github social icon*/
   width: 43%;
   float: right;
