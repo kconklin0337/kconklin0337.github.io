@@ -1,5 +1,6 @@
 body {
   background-image: url(https://imgnooz.com/sites/default/files/wallpaper/abstract/55449/fabric-texture-wallpapers-55449-3246274.png);
+  background-blend-mode: luminosity;
 }
 
 .container {
@@ -56,14 +57,14 @@ div.side-menu > img:first-child {
 
 .linkedin-icon{
 /*linkedin social icon*/
-  width: 35%;
-  margin-top: 1%;
+  width: 33%;
+  margin-top: 2%;
   margin-right: 2%;
 }
 
 .github-icon{
 /*github social icon*/
-  width: 50%;
+  width: 45%;
   float: right;
   margin-right: -1%;
 }
