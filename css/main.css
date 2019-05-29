@@ -190,14 +190,12 @@ div.name-card > img:first-child {
 
 .bottom-left-block {
   padding: 3% 0% 3% 0%;
-  /* text-align: CENTER; */
   width: 43%;
   margin-left: 55px;
 }
 
 .bottom-right-block {
   padding: 3% 0% 3% 0%;
-  /* text-align: CENTER; */
   width: 43%;
   margin-right: 40px;
   float: right;
