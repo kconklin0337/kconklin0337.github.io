@@ -55,7 +55,7 @@ body {
   border-style: solid;
 }
 
-div.side-menu > img:first-child {
+div.name-card > img:first-child {
 /*profile picture*/
   border-radius: 2px;
   width: 65%;
