@@ -20,7 +20,7 @@ body {
   border-color: black;
   border-style: solid;
   font-family: "Lucida Console", Monaco, monospace;
-  padding: 2% 0% 1% 0%;
+  padding: 3% 0% 1% 0%;
   border-bottom: none;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
@@ -59,9 +59,12 @@ body {
 }
 
 .carousel-content {
-  padding: 3%;
+  padding: 1% 5% 0% 5%;
   background-color: #560b079e;
   height: 151px;
+  font-size: 18px;
+  line-height: 21px;
+  word-spacing: initial;
 }
 
 .carousel-indicators {
@@ -96,9 +99,16 @@ body {
 
 .profile-pic {
 /*profile picture*/
-  border-radius: 2px;
   width: 60%;
   opacity: .9;
+  margin: 2% 0% 6.4% 0%;
+}
+
+.profil-pic:hover{
+  border-radius: 45%;
+  transition-property: border-radius;
+  transition-duration: 2s;
+  transition-timing-function: linear;
 }
 
 .linkedin-icon{
