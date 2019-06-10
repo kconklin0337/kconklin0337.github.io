@@ -66,8 +66,13 @@ body {
 .carousel-indicators {
   display: none !important;
 }
-.carousel-control-next, .carousel-control-prev {
-  top: 85%;
+
+.carousel-control-next {
+  top: 80%;
+}
+
+.carousel-control-prev {
+  top: 80%;
 }
 .name-card {
   margin: 9% 0% 0% 32%;
