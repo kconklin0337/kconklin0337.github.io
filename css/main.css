@@ -26,13 +26,16 @@ body {
 
 .top-page-content{
   color: #f7e7c9;
-  margin-left: 5px;
-  padding-top: 5%;
+  margin-left: 2px;
+  padding-top: 0%;
   width: 123%;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   line-height: 27px;
   word-spacing: 2px;
   text-align: justify;
+}
+.carousel-inner {
+  width:101%;
 }
 
 .carousel-inner img {
@@ -41,13 +44,13 @@ body {
 }
 
 .name-card {
-  margin: 9% 0% 10% 50%;
+  margin: 9% 0% 5% 32%;
   padding: 5%;
   color: #f7e7c9;
   background-color: #560b079e;
   overflow: hidden;
   border-radius: 2%;
-  width: 50%;
+  width: 69%;
   text-align: center;
   line-height: 35px;
   border-width: 5px;
