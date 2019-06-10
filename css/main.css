@@ -94,7 +94,7 @@ body {
   border-style: solid;
 }
 
-div.name-card h2 > img:first-child {
+.profile-pic {
 /*profile picture*/
   border-radius: 2px;
   width: 60%;
