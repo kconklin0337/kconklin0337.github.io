@@ -64,7 +64,7 @@ body {
 }
 
 .carousel-indicators {
-  display: none;
+  display: none !important;
 }
 
 .name-card {
