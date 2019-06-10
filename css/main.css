@@ -60,24 +60,26 @@ body {
 .carousel-content {
   padding: 3%;
   background-color: #560b079e;
-  height: 144px;
+  height: 151px;
 }
 
 .carousel-indicators {
   display: none !important;
 }
-
+.carousel-control-next, .carousel-control-prev {
+  top: 85%;
+}
 .name-card {
   margin: 9% 0% 0% 32%;
   padding: 5%;
   color: #f7e7c9;
   background-color: #560b079e;
   overflow: hidden;
-  border-radius: 2%;
+  border-radius: 4px;
   width: 69%;
   text-align: center;
   line-height: 35px;
-  border-width: 5px;
+  border-width: 4px;
   border-color: black;
   border-style: solid;
 }
