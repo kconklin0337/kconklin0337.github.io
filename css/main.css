@@ -24,6 +24,7 @@ body {
   border-bottom: none;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
+  border-bottom-width: 1px;
 }
 
 .top-page-content{
@@ -50,23 +51,20 @@ body {
   border-top-left-radius: 0px;
 }
 .carousel-inner img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+  padding: 1%;
+  background-color: #560b079e;
 }
+
 .carousel-content {
   padding: 3%;
-  margin-bottom: 5%;
+  background-color: #560b079e;
+  height: 144px;
 }
 
-.carousel-indicators li {
-width: 30px;
-height: 3px;
-}
-
-.carousel-indicators .active {
-    width: 31px;
-    height: 5px;
-    margin: 0;
+.carousel-indicators {
+  display: none;
 }
 
 .name-card {
